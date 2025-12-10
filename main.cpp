@@ -25,6 +25,13 @@ int main()
     ss << left << setw(k) << "Ñîóñ" << setw(k) << "Âåñ" << setw(k) << "Ìÿñî" << setw(k) << "Êèëîêàëîğèè" << endl;
 
     ofstream out("out.bin", ios::binary);
+
+    for(const auto &vid : vse_shaurmy)
+    {
+        ss << endl;
+        ss << left << setw(k) << vid.sous << setw(k) << vid.ves << setw(k) << vid.meat << setw(k) << vid.kalorii << endl;
+    }
+    wcout << ss.str();
     //ôóíêöèÿ 3:
     return 0;
 }
