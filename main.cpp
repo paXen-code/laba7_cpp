@@ -20,7 +20,11 @@ int main()
     //функция 1:
 
     //функция 2:
+    wstringstream ss;
+    int k = 12;
+    ss << left << setw(k) << "Соус" << setw(k) << "Вес" << setw(k) << "Мясо" << setw(k) << "Килокалории" << endl;
 
+    ofstream out("out.bin", ios::binary);
     //функция 3:
     return 0;
 }
