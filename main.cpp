@@ -18,9 +18,9 @@ struct shaurma
 int main()
 {
     //функция 1:
-    wstringstream ss;
-    //функция 2:
 
+    //функция 2:
+    wstringstream ss;
     //функция 3:
     return 0;
 }
